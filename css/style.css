@@ -2733,8 +2733,28 @@ input[type="button"].btn-block {
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1.5rem;
-  color: #212529; }
+  color: #212529; 
+}
+.oi-x {
+  display: none;
+}
 
+.navbar-toggler.collapsed .oi-menu {
+  display: inline-block;
+}
+
+.navbar-toggler.collapsed .oi-x {
+  display: none;
+}
+
+.navbar-toggler:not(.collapsed) .oi-menu {
+  display: none;
+}
+
+.navbar-toggler:not(.collapsed) .oi-x {
+  display: inline-block;
+}
+  
 .btn-group,
 .btn-group-vertical {
   position: relative;
