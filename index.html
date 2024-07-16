@@ -70,6 +70,17 @@
   white-space: nowrap;
   animation: typing 3s steps(20, end) infinite;
 }
+@media (max-width: 768px) {
+  #typing-animation {
+    font-size: 25px; /* Smaller font size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  #typing-animation {
+    font-size: 18px; /* Smaller font size for mobile phones */
+  }
+}
 
 #typing-animation:before {
   content: "";

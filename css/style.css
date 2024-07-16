@@ -2755,22 +2755,6 @@ input[type="button"].btn-block {
   display: inline-block;
 }
 
-#typing-animation {
-  font-size: 2rem; /* Default font size */
-  white-space: nowrap;
-}
-
-@media (max-width: 768px) {
-  #typing-animation {
-    font-size: 1.5rem; /* Smaller font size for tablets */
-  }
-}
-
-@media (max-width: 480px) {
-  #typing-animation {
-    font-size: 0.8rem; /* Smaller font size for mobile phones */
-  }
-}
 
 .btn-group,
 .btn-group-vertical {
